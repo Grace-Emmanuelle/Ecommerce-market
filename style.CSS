@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
 /* POUR LES 3 PETITS POINTS*/
 .point {
   position: absolute;
@@ -226,7 +233,7 @@ header {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 15px 15%;
   gap: 20px;
@@ -244,10 +251,10 @@ header {
 
 .filtre button {
   background-color: orange;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   color: white;
-  padding: 5px 5px;
+  padding: 10px 10px;
   font-size: 10px;
   margin-top: 20px;
 }
@@ -545,6 +552,7 @@ header {
   header {
     position: relative;
   }
+
   .text h2 {
     font-size: 18px;
   }
